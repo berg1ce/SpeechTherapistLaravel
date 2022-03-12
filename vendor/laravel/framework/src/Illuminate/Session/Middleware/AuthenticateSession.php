@@ -5,9 +5,8 @@ namespace Illuminate\Session\Middleware;
 use Closure;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Contracts\Auth\Factory as AuthFactory;
-use Illuminate\Contracts\Session\Middleware\AuthenticatesSessions;
 
-class AuthenticateSession implements AuthenticatesSessions
+class AuthenticateSession
 {
     /**
      * The authentication factory implementation.
